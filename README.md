@@ -13,10 +13,11 @@ Configure and test basic firewall rules to control network traffic by allowing o
 -  Powershell
 
 ## Windows Implementation
-### Enabling Telnet Client (Testing Tool)
+#### Enabling Telnet Client (Testing Tool)
 -  Validate firewall rule effectiveness
 -  Test port blocking/allowing functionality
 -  Demonstrate insecure protocol behavior (educational context)
 
-### Command
+#### Command
+```powershell
 dism /online /Enable-Feature /FeatureName:TelnetClient
