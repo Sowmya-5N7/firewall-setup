@@ -1,0 +1,2 @@
+The following are used :-
+- Enable the telnet by using the following command - "dism /online /Enable-Feature /FeatureName:TelnetClient" and install the telnet client .
